@@ -1,0 +1,432 @@
+@media (max-width: 400px) {
+    .navBar {
+        height: 66px !important;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+
+    .navBar .location {
+        font-size: 1.8em !important;
+    }
+
+    .navBar .name {
+        font-size: 2em !important;
+    }
+
+    .navBar ion-icon {
+        font-size: 2em !important;
+    }
+
+    #menuSection .menuItem {
+        font-size: 1.3em !important;
+        line-height: 1.5em !important;
+        margin-bottom: 0.2em !important;
+        margin-top: 0.2em !important;
+        padding: 0.2em 0 !important;
+    }
+
+    .introSection {
+        padding: 0.5em !important;
+    }
+
+    .nameContainer {
+        font-size: 3em !important;
+        height: 100px !important;
+        padding: 0.2em 0 !important;
+    }
+
+    .nameContainer p {
+        font-size: 0.7em !important;
+        letter-spacing: 1px !important;
+    }
+
+    #punchlineSection.punchlineSection {
+        flex-direction: column !important;
+        gap: 1.5em !important;
+        padding: 1em 0.5em !important;
+    }
+
+    .punchlineSection .column1 {
+        width: 100% !important;
+        padding: 0.5em !important;
+        border: none !important;
+    }
+
+    .punchlineSection .text1 p {
+        font-size: 2.2em !important;
+    }
+
+    .punchlineSection .image1,
+    .punchlineSection .image2 {
+        height: 220px !important;
+        min-height: 120px !important;
+        margin-top: 1em !important;
+    }
+
+    .punchlineSection .description1 p {
+        font-size: 1.1em !important;
+        margin-top: 1em !important;
+    }
+
+    .punchlineSection .col2text {
+        font-size: 1.3em !important;
+        margin-top: 0.7em !important;
+    }
+
+    .websiteSection {
+        padding: 0.5em !important;
+    }
+
+    .websiteContainer {
+        flex-direction: column !important;
+        height: auto !important;
+        gap: 1em !important;
+        margin-top: 1em !important;
+    }
+
+    .websiteTextContainer {
+        font-size: 2.5em !important;
+        height: 70px !important;
+        width: 100% !important;
+        padding: 0.2em 0 !important;
+    }
+
+    .websiteTextContainer p {
+        font-size: 0.7em !important;
+        letter-spacing: 1px !important;
+    }
+
+    .stampImage {
+        width: 120px !important;
+        height: 120px !important;
+        min-width: 80px !important;
+        min-height: 80px !important;
+        margin: 0 auto !important;
+    }
+
+    .websiteInfoSection {
+        flex-direction: column !important;
+        gap: 1.5em !important;
+        margin-top: 1em !important;
+    }
+
+    .webCol1,
+    .webCol2 {
+        width: 100% !important;
+        padding: 0.5em !important;
+        border: none !important;
+        gap: 1em !important;
+    }
+
+    .webCol1Row1 {
+        flex-direction: column !important;
+        gap: 1em !important;
+    }
+
+    .slide1,
+    .slide2 {
+        width: 100% !important;
+        padding: 0.5em !important;
+        border: none !important;
+        margin-right: 0 !important;
+    }
+
+    .slide1Img {
+        width: 100% !important;
+        max-width: 300px !important;
+        height: 120px !important;
+        margin: 0 auto !important;
+    }
+
+    .webCol1Row1Text1 {
+        font-size: 1.1em !important;
+    }
+
+    .webDescription1,
+    .webDescription2 {
+        font-size: 1em !important;
+        width: 100% !important;
+        min-width: 0 !important;
+    }
+
+    .slide2text1 {
+        font-size: 2em !important;
+    }
+
+    .webCol1Row2 {
+        height: 180px !important;
+        padding: 0.5em !important;
+        background-size: cover !important;
+    }
+
+    .webCol2text1 div {
+        font-size: 2em !important;
+        line-height: 1.2em !important;
+    }
+
+    .webCol2Desc1 .webDescription3 {
+        font-size: 1em !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        padding: 0 !important;
+    }
+
+    .visitCircle {
+        width: 90% !important;
+        min-width: 0 !important;
+        height: 60px !important;
+        font-size: 1.3em !important;
+        margin-left: 0 !important;
+        margin-top: 1em !important;
+    }
+
+    .recommendationSection {
+        height: auto !important;
+        min-height: 380px !important;
+        padding: 1em 0.5em !important;
+        gap: 1em !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        box-sizing: border-box !important;
+        align-items: flex-start !important;
+    }
+
+    .recommendationCard {
+        width: 95vw !important;
+        max-width: 400px !important;
+        min-width: 280px !important;
+        height: auto !important;
+        min-height: 420px !important;
+        margin: 0 0.5em 1em 0 !important;
+        padding: 1em !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+    }
+
+    .dottedContainer {
+        padding: 1em !important;
+        gap: 1em !important;
+    }
+
+    .quote {
+        font-size: 1em !important;
+    }
+
+    .userLogo {
+        height: 60px !important;
+        width: 60px !important;
+    }
+
+    .userName {
+        font-size: 1.2em !important;
+    }
+
+    .userDesig {
+        font-size: 1em !important;
+    }
+
+    .stamp {
+        height: 50px !important;
+        width: 50px !important;
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+
+    .techTracks {
+        padding: 0.5em !important;
+    }
+
+    .techTracks .row1,
+    .techTracks .row2row1,
+    .techTracks .row2row2 {
+        flex-direction: column !important;
+        gap: 1em !important;
+    }
+
+    .row1col1,
+    .row1col2,
+    .row2row1>.row1col2,
+    .row2row2>.websiteTextContainer,
+    .row2row2>.descriptionRow2 {
+        width: 100% !important;
+        min-width: 0 !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+
+    .image1row1col1techTracks {
+        width: 60px !important;
+        height: 120px !important;
+        min-width: 40px !important;
+        min-height: 60px !important;
+        display: none;
+    }
+
+    .text1row1col1techTracks {
+        font-size: 2.5em !important;
+        line-height: 1.1em !important;
+        padding: 0.2em 0 !important;
+        height: auto !important;
+    }
+
+    .row1col2 {
+        height: 180px !important;
+        min-height: 100px !important;
+        background-size: cover !important;
+    }
+
+    .row2row1 .row1col2 {
+        width: 100% !important;
+        height: 120px !important;
+        min-width: 0 !important;
+        margin-bottom: 1em !important;
+    }
+
+    .row2row2 .websiteTextContainer {
+        font-size: 3em !important;
+        height: 100px !important;
+        min-height: 60px !important;
+        padding: 0.2em 0 !important;
+    }
+
+    .row2row2 .descriptionRow2 {
+        font-size: 1em !important;
+        width: 100% !important;
+        min-width: 0 !important;
+        margin-top: 1em !important;
+    }
+
+    .techTracks img {
+        width: 36px !important;
+        height: 36px !important;
+    }
+
+    .techTracks p.font-extrabold {
+        font-size: 1.1em !important;
+    }
+
+    .text1row1col1techTracks {
+        white-space: nowrap !important;
+        font-size: 1.2em !important;
+        line-height: 1.2em !important;
+    }
+
+    .text1row1col1techTracks br {
+        display: none !important;
+    }
+
+    .contactMeText {
+        font-size: 1.2em !important;
+    }
+
+    .contactMeBox {
+        font-size: 1.1em !important;
+    }
+
+    .contactMeBox p {
+        font-size: 1em !important;
+        line-height: 1.2em !important;
+    }
+
+    .footerName {
+        font-size: 1.2em !important;
+    }
+
+    .footerContent {
+        height: 30px !important;
+    }
+
+    .socialIcon {
+        font-size: 1.1em !important;
+    }
+
+    .socials {
+        gap: 0.7em !important;
+        margin-top: 0.2em !important;
+    }
+
+    .spacer {
+        height: 7px !important;
+        width: 7px !important;
+    }
+
+    .navBar {
+        height: 66px !important;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+
+    .navBar .location {
+        font-size: 1.8em !important;
+    }
+
+    .navBar .name {
+        font-size: 2em !important;
+    }
+
+    .navBar ion-icon {
+        font-size: 2em !important;
+    }
+
+    #menuSection .menuItem {
+        font-size: 1.3em !important;
+        line-height: 1.5em !important;
+        margin-bottom: 0.2em !important;
+        margin-top: 0.2em !important;
+        padding: 0.2em 0 !important;
+    }
+
+    .recommendationSection {
+        height: auto !important;
+        min-height: 380px !important;
+        padding: 1em 0.5em !important;
+        gap: 1em !important;
+        overflow-x: auto !important;
+        overflow-y: hidden !important;
+        box-sizing: border-box !important;
+        align-items: flex-start !important;
+    }
+
+    .recommendationCard {
+        width: 78vw !important;
+        max-width: 400px !important;
+        min-width: 280px !important;
+        height: 280px;
+        min-height: 280px !important;
+        margin: 0 0.5em 1em 0 !important;
+        padding: 1em !important;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: space-between !important;
+    }
+
+    .dottedContainer {
+        padding: 1em !important;
+        gap: 1em !important;
+    }
+
+    .quote {
+        font-size: 1em !important;
+    }
+
+    .userLogo {
+        height: 60px !important;
+        width: 60px !important;
+    }
+
+    .userName {
+        font-size: 1.2em !important;
+    }
+
+    .userDesig {
+        font-size: 1em !important;
+    }
+
+    .stamp {
+        height: 50px !important;
+        width: 50px !important;
+        bottom: 10px !important;
+        right: 10px !important;
+    }
+}

@@ -1,0 +1,282 @@
+@media (max-width: 400px) {
+    .introSection {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+        height: auto;
+    }
+
+    .introSection .col1,
+    .introSection .col2 {
+        width: 100% !important;
+        max-width: 100vw;
+    }
+
+    .introSection .col1 {
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .introSection .headingText {
+        width: 90vw !important;
+        min-width: 0;
+        padding: 0.5em !important;
+        height: auto !important;
+        font-size: 2.2em !important;
+    }
+
+    .introSection .headingText p {
+        font-size: 1em !important;
+        padding: 0;
+    }
+
+    .introSection .descriptionText p {
+        font-size: 1.2em !important;
+        text-align: left;
+        padding: 0.5em 0.2em;
+    }
+
+    .introSection .col2 {
+        height: 220px !important;
+        min-height: 120px;
+        background-size: cover !important;
+        border-radius: 10px;
+        margin-top: 1.5em;
+    }
+
+    #workExperience {
+        height: auto !important;
+        min-height: 200px;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+        padding-top: 1em !important;
+        padding-bottom: 1em !important;
+        gap: 0.8em !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: visible !important;
+        margin-top: 1.5em !important;
+    }
+
+    #workExperience .workExperienceCard {
+        width: 78vw !important;
+        min-width: 250px !important;
+        max-width: 95vw !important;
+        height: 400px !important;
+        padding: 0.5em !important;
+        margin-right: 0.7em !important;
+    }
+
+    #workExperience .dottedContainer {
+        padding: 0.7em !important;
+        gap: 0.5em !important;
+    }
+
+    #workExperience .jobSpotlight {
+        font-size: 1.5em !important;
+        line-height: 1.2em !important;
+    }
+
+    #workExperience .jobTimeline {
+        font-size: 1em !important;
+    }
+
+    #workExperience .quote {
+        width: 90% !important;
+        font-size: 1em !important;
+        position: static !important;
+        margin-top: 0.5em !important;
+    }
+
+    .visitPublication {
+        flex-direction: column !important;
+        gap: 1.2em !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding: 1.2em 0.2em !important;
+        margin-top: 1.2em !important;
+    }
+
+    .visitPublication .publicationText {
+        font-size: 2.2em !important;
+        text-align: center !important;
+        width: 100% !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    .visitPublication .visitCircle {
+        width: 90vw !important;
+        max-width: 95vw !important;
+        height: 60px !important;
+        font-size: 1.3em !important;
+        margin-top: 0.5em !important;
+        border-width: 2px !important;
+        border-radius: 30px !important;
+    }
+
+    .aboutSectionImages {
+        flex-direction: column !important;
+        gap: 0.7em !important;
+        padding: 0.7em 0.2em !important;
+        margin-top: 1em !important;
+    }
+
+    .aboutSectionImages>div {
+        width: 100% !important;
+        min-width: 0 !important;
+        max-width: 100vw !important;
+        height: 180px !important;
+        margin-bottom: 0.5em !important;
+    }
+
+    .aboutSectionFancyText {
+        padding: 0.7em 0.2em !important;
+        margin-top: 1em !important;
+        gap: 0.7em !important;
+        width: 100% !important;
+    }
+
+    .aboutSectionFancyText .aboutSectionText {
+        font-size: 2.2em !important;
+        height: 70px !important;
+        min-height: 0 !important;
+        padding: 0.2em !important;
+        border-radius: 10px !important;
+    }
+
+    .aboutSectionFancyText .aboutSectionText p {
+        font-size: 1.1em !important;
+        padding: 0 !important;
+    }
+
+    .aboutSectionFancyText p {
+        font-size: 1em !important;
+        text-align: left !important;
+        padding: 0.2em 0 !important;
+        word-break: break-word !important;
+    }
+
+    .aboutSectionFancyText .aboutFancyDescription {
+        font-size: 1.1em !important;
+        line-height: 1.4em !important;
+        text-align: left !important;
+        padding: 0.2em 0 !important;
+    }
+
+    .aboutSectionFancyText span {
+        font-size: 1em !important;
+        padding: 0.1em 0.3em !important;
+        border-radius: 7px !important;
+    }
+
+    #spotlight.spotlight {
+        height: auto !important;
+        min-height: 180px;
+        padding-left: 0.2em !important;
+        padding-right: 0.2em !important;
+        padding-top: 0.7em !important;
+        padding-bottom: 0.7em !important;
+        gap: 0.7em !important;
+        flex-wrap: nowrap !important;
+        overflow-x: auto !important;
+        overflow-y: visible !important;
+        margin-bottom: 1em !important;
+    }
+
+    #spotlight .featuredTile,
+    #spotlight .featuredTileSpecial {
+        width: 85vw !important;
+        min-width: 220px !important;
+        max-width: 95vw !important;
+        height: 180px !important;
+        padding: 0.3em !important;
+        margin-right: 0.7em !important;
+        font-size: 1em !important;
+    }
+
+    #spotlight .featuredImage {
+        height: 60px !important;
+        border-radius: 7px !important;
+    }
+
+    #spotlight .featureName,
+    #spotlight .featuredTileSpecialText {
+        font-size: 1.1em !important;
+    }
+
+    #spotlight .featuredDescription,
+    #spotlight .featuredTileSpecialDesc,
+    #spotlight .featuredTileSpecialTip {
+        font-size: 0.9em !important;
+        padding: 0.1em 0 !important;
+    }
+
+    #spotlight .newTag {
+        font-size: 1em !important;
+        height: 22px !important;
+        border-radius: 4px !important;
+        margin-top: 0.2em !important;
+    }
+
+    .contactMeText {
+        font-size: 1.2em !important;
+    }
+
+    .contactMeBox {
+        font-size: 1.1em !important;
+    }
+
+    .contactMeBox p {
+        font-size: 1em !important;
+        line-height: 1.2em !important;
+    }
+
+    .footerName {
+        font-size: 1.2em !important;
+    }
+
+    .footerContent {
+        height: 30px !important;
+    }
+
+    .socialIcon {
+        font-size: 1.1em !important;
+    }
+
+    .socials {
+        gap: 0.7em !important;
+        margin-top: 0.2em !important;
+    }
+
+    .spacer {
+        height: 7px !important;
+        width: 7px !important;
+    }
+
+    .navBar {
+        height: 66px !important;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+
+    .navBar .location {
+        font-size: 1.8em !important;
+    }
+
+    .navBar .name {
+        font-size: 2em !important;
+    }
+
+    .navBar ion-icon {
+        font-size: 2em !important;
+    }
+
+    #menuSection .menuItem {
+        font-size: 1.3em !important;
+        line-height: 1.5em !important;
+        margin-bottom: 0.2em !important;
+        margin-top: 0.2em !important;
+        padding: 0.2em 0 !important;
+    }
+}
