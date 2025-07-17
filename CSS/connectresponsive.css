@@ -1,0 +1,108 @@
+@media (max-width: 400px) {
+    .navBar {
+        height: 66px !important;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+
+    .navBar .location {
+        font-size: 1.8em !important;
+    }
+
+    .navBar .name {
+        font-size: 2em !important;
+    }
+
+    .navBar ion-icon {
+        font-size: 2em !important;
+    }
+
+    #menuSection .menuItem {
+        font-size: 1.3em !important;
+        line-height: 1.5em !important;
+        margin-bottom: 0.2em !important;
+        margin-top: 0.2em !important;
+        padding: 0.2em 0 !important;
+    }
+
+    .headingText {
+        font-size: 65px !important;
+    }
+
+    /* Responsive for social links section: 2x2 grid */
+    .flex.flex-row.justify-center.items-center.gap-16.mt-10.mb-16 {
+        display: flex !important;
+        flex-wrap: wrap !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+        gap: 1.5em !important;
+        margin-top: 1.5em !important;
+        margin-bottom: 1.5em !important;
+    }
+
+    .group.flex.flex-col.items-center {
+        width: 45% !important;
+        margin-bottom: 1em !important;
+        align-items: center !important;
+    }
+
+    .group .bg-\[\#1B1B19\] {
+        padding: 1.2em !important;
+    }
+
+    .group span {
+        font-size: 1em !important;
+    }
+
+    /* Responsive for email/contact section */
+    .flex.flex-row.items-center.mt-10.px-4.justify-between {
+        flex-direction: column !important;
+        align-items: center !important;
+        gap: 1.2em !important;
+        padding-left: 0.5em !important;
+        padding-right: 0.5em !important;
+    }
+
+    .relative.w-full.max-w-\[500px\].rounded-\[20px\].p-6.bg-\[#e6ddc6\] {
+        max-width: 100% !important;
+        width: 100% !important;
+        padding: 1em !important;
+    }
+
+    .inline-block.emailProvoke {
+        font-size: 1.2em !important;
+        max-width: 100% !important;
+        margin: 0.5em 0 !important;
+        padding: 0.5em 0.5em !important;
+    }
+
+    .bgConnectImage {
+        width: 90vw !important;
+        max-width: 320px !important;
+        height: 380px !important;
+        margin-top: 0.5em !important;
+    }
+
+    .footerName {
+        font-size: 1.2em !important;
+    }
+
+    .footerContent {
+        height: 20px !important;
+    }
+
+    .socialIcon {
+        font-size: 1.5em !important;
+    }
+
+    .socials {
+        gap: 0.7em !important;
+        margin-top: 0.2em !important;
+    }
+
+    .spacer {
+        height: 7px !important;
+        width: 7px !important;
+    }
+
+}
